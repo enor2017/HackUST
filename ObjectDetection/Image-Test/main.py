@@ -8,9 +8,13 @@ detector.setModelTypeAsYOLOv3()
 detector.setModelPath(os.path.join(execution_path, "yolo.h5"))
 detector.loadModel()
 
-source_img = "Apr_1_1822_LG1_Holiday.jpg"
+source_img = "Apr_1_1821_LG1_Holiday.JPG"
+# get image name from input
+source_img = input()
+
 # only detect people
 custom_objects = detector.CustomObjects(person = True)
+
 detections = detector.detectObjectsFromImage(input_image=os.path.join(execution_path, source_img),
                                              output_image_path=os.path.join(execution_path, source_img[:source_img.index('.')]+"_after.jpg"),
                                              minimum_percentage_probability=30,
