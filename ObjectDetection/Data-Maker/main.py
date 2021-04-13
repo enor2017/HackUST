@@ -1,0 +1,56 @@
+# 4-1.txt
+# 12:20  80
+# 12:40  78
+from random import randint
+
+
+def generate_holiday():
+    # April 1 ~ 6 holiday
+    for i in range(1, 7):
+        file = open("./holiday-data/4-" + str(i) + ".txt", "w")
+        result = {}
+        # generate basic
+        for hour in range(8, 20):
+            for minute in range(0, 60, 20):
+                base_number = randint(5, 10)
+                result[(hour, minute)] = base_number
+        # 8AM
+        for minute in range(20, 60, 20):
+            extra_number = randint(4, 6)
+            result[(8, minute)] += extra_number
+        # 9AM
+        for minute in range(0, 60, 20):
+            extra_number = randint(5, 7)
+            result[(9, minute)] += extra_number
+        # 11AM
+        for minute in range(0, 60, 20):
+            extra_number = randint(minute/10, minute/5)
+            result[(11, minute)] += extra_number
+        # 12AM~2PM
+        for hour in range(12, 14):
+            for minute in range(0, 60, 20):
+                extra_number = randint(20, 50 - hour * 2)
+                result[(hour, minute)] += extra_number
+        # 4PM~5PM
+        for minute in range(0, 60, 20):
+            extra_number = randint(minute/10 + 1, minute/5 + 2)
+            result[(16, minute)] += extra_number
+        # 5PM~6PM
+        for hour in range(17, 19):
+            for minute in range(0, 60, 20):
+                extra_number = randint(18, 57 - hour * 2)
+                result[(hour, minute)] += extra_number
+        # 7PM
+        for minute in range(0, 60, 20):
+            extra_number = randint(12 - minute/5, 16 - minute/5)
+            result[(19, minute)] += extra_number
+
+        # output data
+        for j in result.keys():
+            file.write(str(j[0]) + ":" + str(j[1]) + " " + str(result[j]) + "\n")
+
+
+if __name__ == '__main__':
+    generate_holiday()
+
+
