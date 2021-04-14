@@ -56,19 +56,4 @@
       border-color: $medium-gray;
     }
   }
-  .form-group label,
-  fieldset label {
-    font-size: 12px;
-    line-height: 18px;
-    font-weight: 300;
-    &.control-label {
-      color: #25265F;
-      text-transform: uppercase;
-    }
-    &.error {
-      text-transform: none;
-      color: #FB404B;
-      margin-top: 5px;
-    }
-  }
 }

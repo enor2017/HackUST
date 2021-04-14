@@ -5,7 +5,7 @@ import KitchenImage from './KitchenImage';
 
 const TabGroup = () => (
   <div className="row">
-    <div className="col-md-16">
+    <div className="col-lg-16">
       <div className="card">
         <div className="header">
           <h2 className="title">Current Canteen Image</h2>

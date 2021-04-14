@@ -10,7 +10,7 @@ const QrCode = () => (
             width = "250px"></img>
             <div>
                 <a href = "https://now.order.place/#/store/102829/mode/prekiosk" target = "_blank">
-                <button className="btn btn-success btn-fill btn-wd">Make an order</button>
+                <button className="mybutton">Make an order</button>
                 </a>
             </div>
         </div>

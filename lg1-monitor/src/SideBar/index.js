@@ -10,13 +10,12 @@ class SideBar extends Component {
         
         <div className="brand">
           <a href="" className="brand-name">
-            <h2>Just4Fun</h2>
+            LG1 Monitor
           </a>
         </div>
 
         <div className="sidebar-wrapper">
           <UserInfo />
-          <div className="line"></div>
           <Nav />
         </div>
       </div>

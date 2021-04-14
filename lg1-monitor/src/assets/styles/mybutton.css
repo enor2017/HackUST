@@ -1,0 +1,23 @@
+.mybutton{
+    /* background */
+    background-color: #87cb16;
+    border: 1px solid #87cb16;
+    border-radius: 35px;
+
+    /* fonts */
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+
+    /* block-size */
+    min-width: 140px;
+    line-height: 1.5;
+    padding: 8px 16px;
+}
+
+.mybutton:hover{
+    background-color: #049F0C;
+
+}

@@ -6,6 +6,7 @@ import Footer from './Footer';
 import SideBar from '../SideBar';
 
 import Dashboard from '../Dashboard';
+import OrderHistory from '../OrderHistory';
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
         <div className="main-panel">
           <Header />
           <Route exact path="/" component={Dashboard} />
+          <Route path="/order-history" component={OrderHistory} />
           <Footer />
         </div>
       </div>

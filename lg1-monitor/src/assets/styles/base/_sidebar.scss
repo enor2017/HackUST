@@ -26,11 +26,9 @@ body, .wrapper {
 a {
   cursor: pointer;
   text-decoration: none;
-  color: #4A4A4A;
 
   &:focus, &:hover {
     text-decoration: none;
-    color: #4A4A4A;
   }
 }
 
@@ -67,10 +65,10 @@ a {
       margin-right: 10px;
     }
     .brand-name {
-      color: #EA4C89;
+      color: #e42c73;
       font-family: "SF UI Text";
-      font-size: 16px;
-      font-weight: 600;
+      font-size: 28px;
+      font-weight: 800;
       line-height: 19px;
       text-align: center;
     }

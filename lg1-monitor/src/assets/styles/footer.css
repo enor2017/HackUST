@@ -1,0 +1,14 @@
+.footer{
+    height: 50px;
+    padding: 0 10px;
+    color: #9B9B9B;	
+    font-family: "Open Sans";	
+    font-size: 12px;	
+    /* line-height: 15px; */
+} 
+#left-footer{
+  	text-align: left;
+}
+#right-footer {	
+  text-align: right;
+}

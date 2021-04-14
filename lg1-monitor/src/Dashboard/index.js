@@ -1,6 +1,5 @@
 import React from 'react';
 import QrCode from './QrCode';
-import CanteenImage from './CanteenImage';
 import TabGroup_Chart from './TabGroup_Chart';
 import TabGroup_Img from './TabGroup_Img';
 
