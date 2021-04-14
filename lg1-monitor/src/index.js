@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { HashRouter } from 'react-router-dom';
-import './assets/styles/index.scss';
+import './assets/styles/_sidebar.scss';
 import './assets/styles/mybutton.css';
 import './assets/styles/footer.css';
 import './assets/styles/table.css';
+import './assets/styles/card.css';
+import './assets/styles/fonts.css';
+import './assets/styles/header.css';
 import Main from './Main';
 
 ReactDOM.render(

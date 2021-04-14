@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link, withRouter } from 'react-router-dom';
-import icon from '../assets/images/dashboard-icon.png';
+import dashicon from '../assets/images/dashboard-icon.png';
+import histicon from '../assets/images/history-icon.png';
 
 
 class Nav extends Component {
@@ -11,13 +12,13 @@ class Nav extends Component {
       <ul className="nav">
         <li className={location.pathname === '/' ? 'active' : null}>
           <Link to="/">
-            <img src={icon} alt="Dashboard Icon" width="20px"></img>
+            <img src={dashicon} alt="Dashboard Icon" width="20px"></img>
             &nbsp; &nbsp; <strong>Dashboard</strong>
           </Link>
         </li>
         <li className={this.isPathActive('/order-history') ? 'active' : null}>
           <Link to="/order-history">
-            <img src={icon} alt="History Icon" width="20px"></img>
+            <img src={histicon} alt="History Icon" width="20px"></img>
             &nbsp; &nbsp; <strong>Order History</strong>
           </Link>
         </li>

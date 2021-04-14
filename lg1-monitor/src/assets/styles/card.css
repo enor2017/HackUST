@@ -1,0 +1,29 @@
+.card {
+    border: 1px solid #E3E3E3;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background: white;
+}
+.card-header {
+    padding: 15px 30px 0px;
+}
+
+.card-header h2{
+    margin: 15px 0;
+    color: #3f44ea;
+    letter-spacing: 1px;
+    line-height: 17px;
+    font-weight: 300;
+}
+
+.card-header p{
+    color: #333333;
+    font-size: 13px;
+    line-height: 17px;
+    font-weight: 300;
+}
+
+.card-content{
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+}

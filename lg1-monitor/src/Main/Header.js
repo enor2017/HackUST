@@ -9,14 +9,22 @@ const Header = () => (
       <Navbar.Collapse>
         <Nav pullRight>
           <NavDropdown title="Account" id="right-nav-bar">
-            <MenuItem>Settings</MenuItem>
+            <MenuItem>
+              <Link to="/">
+                Settings
+              </Link>
+            </MenuItem>
             <MenuItem>
               <Link to="/order-history">
                 Order History
               </Link>
             </MenuItem>
             <MenuItem divider />
-            <MenuItem>Logout</MenuItem>
+            <MenuItem>
+              <Link to="/">
+                Logout
+              </Link>
+            </MenuItem>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>

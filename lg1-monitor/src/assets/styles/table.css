@@ -11,7 +11,7 @@
 }
 
 .order-thead td{
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 800;
     line-height: 2;
     border-top: 2px solid rgb(202, 201, 201);
@@ -19,7 +19,7 @@
 }
 
 .order-tbody td{
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 400;
     border-top: 1px solid rgb(221, 221, 221);
 }

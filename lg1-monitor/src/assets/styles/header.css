@@ -1,0 +1,11 @@
+/* style for header bar */
+.navbar {
+    border: none;
+    background: #ffffff;
+    box-shadow: 10px 0 50px 0 rgba(61, 110, 146, 0.1);
+    padding: 13px 25px;
+    color: #333;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 17px;
+}

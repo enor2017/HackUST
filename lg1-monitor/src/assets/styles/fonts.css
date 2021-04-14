@@ -1,0 +1,11 @@
+/* public fonts setting */
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto","Helvetica Neue",Arial,sans-serif;
+    font-weight: 400;
+}
+
+h2, .h2{
+    font-size: 36px;
+}

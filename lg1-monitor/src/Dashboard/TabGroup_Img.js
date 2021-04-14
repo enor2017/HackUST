@@ -7,10 +7,10 @@ const TabGroup = () => (
   <div className="row">
     <div className="col-lg-16">
       <div className="card">
-        <div className="header">
-          <h2 className="title">Current Canteen Image</h2>
+        <div className="card-header">
+          <h2>Current Canteen Image</h2>
         </div>
-        <div className="content">
+        <div className="card-content">
           <Tabs defaultActiveKey={1} id="plan-text-tabs">
             <Tab eventKey={1} title="Canteen"><CanteenImage /></Tab>
             <Tab eventKey={2} title="Kitchen"><KitchenImage /></Tab>
