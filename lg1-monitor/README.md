@@ -2,7 +2,7 @@
 
 ## 0. Demo Website
 
-We've already deployed this website on our AWS server: [http://54.89.142.90/](http://mon1-j4f.site/) or [54.89.142.90](http://54.89.142.90/)
+We've already deployed this website on our AWS server: [http://mon1-j4f.site/](http://mon1-j4f.site/) or [54.89.142.90](http://54.89.142.90/)
 
 ## 1. Introduction
 
