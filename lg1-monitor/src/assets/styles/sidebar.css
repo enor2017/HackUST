@@ -1,0 +1,79 @@
+
+.brand{
+    display: block;
+    text-align: center;
+    padding-top: 27px;
+    height: 75px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.brand-name{
+    color: #e42c73;
+    font-family: "SF UI Text";
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.brand-name:focus, .brand-name:hover{
+    text-decoration: none;  
+}
+
+.user-div{
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+}
+
+.user-photo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    margin-right: 10px;
+}
+
+.user-name{
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    padding-top: 22px;
+    padding-left: 10px;
+}
+
+.nav-active a, .nav-inactive a{
+    line-height: 3.5;
+}
+
+.nav-active a {
+    padding: 20px 30px;
+    color: #3f44ea;
+    background-color: #ffffff;
+}
+
+.nav-inactive a {
+    padding: 20px 30px;
+    color: #ffffff;
+}
+
+.nav-inactive a:hover {
+    color: #3f44ea;
+    background-color: #ffffff;
+}
+
+
+/* put main-panel styles here */
+
+.main-panel{
+    position: relative;
+    float: right;
+    width: calc(100% - 280px);
+    min-height: 100%;
+    overflow: auto;
+    background-color: #fafcfe;
+}

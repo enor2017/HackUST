@@ -10,13 +10,13 @@ class Nav extends Component {
     let { location } = this.props;
     return (
       <ul className="nav">
-        <li className={location.pathname === '/' ? 'active' : null}>
+        <li className={location.pathname === '/' ? 'nav-active' : 'nav-inactive'}>
           <Link to="/">
             <img src={dashicon} alt="Dashboard Icon" width="20px"></img>
             &nbsp; &nbsp; <strong>Dashboard</strong>
           </Link>
         </li>
-        <li className={this.isPathActive('/order-history') ? 'active' : null}>
+        <li className={this.isPathActive('/order-history') ? 'nav-active' : 'nav-inactive'}>
           <Link to="/order-history">
             <img src={histicon} alt="History Icon" width="20px"></img>
             &nbsp; &nbsp; <strong>Order History</strong>

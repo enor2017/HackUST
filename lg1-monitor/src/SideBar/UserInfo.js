@@ -5,9 +5,9 @@ class UserInfo extends Component {
   render() {
     return (
       <div className="user-wrapper">
-        <div className="user">
-          <img src={avatar_img} alt={"Demo User"} className="photo" />
-          <div className="userinfo">
+        <div className="user-div">
+          <img src={avatar_img} alt={"Demo User"} className="user-photo" />
+          <div className="userinfo user-name">
             <div className="username">
               {"Demo User"}
             </div>

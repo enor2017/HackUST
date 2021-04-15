@@ -27,3 +27,10 @@
     padding: 10px 30px 10px 30px;
     text-align: center;
 }
+
+.card-footer{
+    padding: 0 10px;
+    color: #9B9B9B;	
+    font-family: "Open Sans";	
+    font-size: 13px;	
+}

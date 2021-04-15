@@ -1,10 +1,3 @@
-html,
-body {
-  font-family: 'Open Sans', sans-serif;
-  background: #ffffff;
-  overflow: hidden;
-}
-
 body, .wrapper {
   min-height: 100vh;
   position: relative;
@@ -21,15 +14,6 @@ body, .wrapper {
 .main-panel, .sidebar {
   max-height: 100%;
   height: 100%;
-}
-
-a {
-  cursor: pointer;
-  text-decoration: none;
-
-  &:focus, &:hover {
-    text-decoration: none;
-  }
 }
 
 .sidebar {
@@ -52,82 +36,4 @@ a {
     height: calc(100vh - 64px);
     overflow: auto;
   }
-  .brand {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: 75px;
-    width: 100%;
-    background-color: #ffffff;
-    .brand-name {
-      color: #e42c73;
-      font-family: "SF UI Text";
-      font-size: 28px;
-      font-weight: 800;
-      line-height: 19px;
-      text-align: center;
-    }
-  }
-  .user-wrapper {
-    .user {
-      margin: 0 auto;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      padding: 20px;
-      .photo {
-        width: 61px;
-        height: 61px;
-        border-radius: 50%;
-        border: 1px solid #ffffff;
-        margin-right: 10px;
-      }
-      .userinfo {
-        flex-grow: 1;
-        .username {
-          font-size: 14px;
-          font-weight: 600;
-          line-height: 19px;
-        }
-        .title {
-          font-size: 12px;
-          font-weight: 300;
-          line-height: 17px;
-        }
-      }
-    }
-  }
-
-  > .sidebar-wrapper > .nav {
-    > li {
-      &.active > a {
-        color: #3f44ea;
-        background: #ffffff;
-      }
-      > a {
-        padding: 20px 30px;
-        font-size: 14px;
-        color: #ffffff;
-        &:hover {
-          color: #3f44ea;
-          background: #ffffff;
-        }
-      }
-
-      &.active .caret {
-        transform: rotate(180deg);
-      }
-    }
-  }
-}
-
-.main-panel {
-  position: relative;
-  float: right;
-  width: calc(100% - 280px);
-  min-height: 100%;
-  overflow: auto;
-  background-color: #FAFCFE;	box-shadow: 0 30px 130px 0 rgba(90,105,116,0.1);
 }

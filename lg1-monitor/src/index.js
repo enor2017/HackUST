@@ -8,6 +8,7 @@ import './assets/styles/table.css';
 import './assets/styles/card.css';
 import './assets/styles/fonts.css';
 import './assets/styles/header.css';
+import './assets/styles/sidebar.css';
 import Main from './Main';
 
 ReactDOM.render(

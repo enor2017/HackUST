@@ -11,18 +11,18 @@ const Header = () => (
           <NavDropdown title="Account" id="right-nav-bar">
             <MenuItem>
               <Link to="/">
-                Settings
+                <p className="meau-p">Settings</p>
               </Link>
             </MenuItem>
             <MenuItem>
               <Link to="/order-history">
-                Order History
+                <p className="meau-p">Order History</p>
               </Link>
             </MenuItem>
             <MenuItem divider />
             <MenuItem>
               <Link to="/">
-                Logout
+                <p className="meau-p">Logout</p>
               </Link>
             </MenuItem>
           </NavDropdown>
