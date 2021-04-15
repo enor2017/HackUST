@@ -12,4 +12,10 @@ fig = go.Figure(data = [
     go.Scatter(name = 'Apr 16 12:20', x = dates, y = people_1220)
 ])
 
+fig.update_layout(
+    autosize=False,
+    width=800,
+    height=500
+)
+
 fig.show()
