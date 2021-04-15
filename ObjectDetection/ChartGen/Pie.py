@@ -10,4 +10,18 @@ values = [1, 3, 2, 2, 1]
 fig = go.Figure(data = [
     go.Pie(labels = labels, values = values)
 ])
+
+fig.update_layout(
+    autosize = False,
+    width = 1000,
+    height = 600,
+    margin = dict(
+        l = 10,
+        r = 10,
+        b = 10,
+        t = 10,
+        pad=4
+    ),
+)
+
 fig.show()
