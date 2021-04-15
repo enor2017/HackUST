@@ -20,6 +20,6 @@ requirements.txt
 
 ## 2. Detect People in Images
 
-- Open `main.py`, this is basically the structure you'll use to detect objects in your images.
-- Put your image name and extension into **Line 11**: `source_img = "your_image_name.jpg/png/..."`
-- Run the program, the result image and report will automatically generate in the same folder, as `your_image_name_after.jpg/png/...`, and `your_image_name_result.txt`.
+- Open `main.py`, this is basically the structure we use to detect objects in images. However, we'll not use this program directly, we will use `auto_detect.py` in order to quickly detect lots of imges automatically.
+- Put your images in the same folder as `main.py` and `auto_detect.py`, then enter **names of all the images** that you want to detect into file `img_list.txt`, notice that please *print an extra line* at the end of this file.
+- Run `auto_detect.py` by using `python auto_detect.py`, or `python3 auto_detect.py` if your default is python2. The result image and report will automatically generate in the same folder, as `your_image_name_after.jpg/png/...`, and `your_image_name_result.txt`.
