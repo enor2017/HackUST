@@ -13,9 +13,16 @@ fig = go.Figure(data = [
 ])
 
 fig.update_layout(
-    autosize=False,
-    width=800,
-    height=500
+    autosize = False,
+    width = 800,
+    height = 500,
+    margin = dict(
+        l = 10,
+        r = 10,
+        b = 10,
+        t = 10,
+        pad=4
+    ),
 )
 
 fig.show()
