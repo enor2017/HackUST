@@ -55,8 +55,8 @@ const OrderTable = () => (
           <tr>
             <td>LG1(Canteen II)</td>
             <td>Apr 9, 18:25</td>
-            <td>Grilled Beef With Handmade Udon</td>
-            <td>$40</td>
+            <td>Dumplings with Handmade Udon<br/>7-up</td>
+            <td>$44.5</td>
             <td>Dine In</td>
           </tr>
           <tr>
@@ -72,6 +72,13 @@ const OrderTable = () => (
             <td>BBQ Pork with Rice<br/>Iced Coffee<br/>Takeaway Box</td>
             <td>$35.5</td>
             <td>Take Away</td>
+          </tr>
+          <tr>
+            <td>LG1(Canteen II)</td>
+            <td>Apr 12, 13:12</td>
+            <td>Dumplings with Handmade Udon<br/>7-up</td>
+            <td>$44.5</td>
+            <td>Dine In</td>
           </tr>
         </tbody>
       </table>
