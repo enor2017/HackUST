@@ -19,6 +19,7 @@ public class Main {
         Calendar cal = Calendar.getInstance();
         cal.setTime(date);
         int week_index = cal.get(Calendar.DAY_OF_WEEK) - 1 ;
+        System.out.println(week_index);
         return week_index;
     }
     public static String getdate() {
@@ -60,7 +61,7 @@ public class Main {
         String F = "";
         String D = "";
         //i is the number of the week
-        for ( i = 0; i < 6; i++) {
+        for ( i = 1; i < 7; i++) {
             //day is the number represents Mon Tue Wed......
             for (day = 0; day < 7; day++) {
                 String filename = i + "-" + day + ".txt";
@@ -118,7 +119,7 @@ public class Main {
                 try{
                     BufferedWriter writer = Files.newBufferedWriter(output_file,
                             Charset.defaultCharset());
-                    for(int e = 0; e < 6; e++) {
+                    for(int e = 1; e < 7; e++) {
                         writer.write(store_date[e]);
                         writer.write(" ");
                         D = String.valueOf(date[weeknow][e][(h - 8) * 3 + min / 20]);
