@@ -16,7 +16,7 @@ Our project consists of **4** parts:
 
   <img src="https://github.com/enor2017/HackUST/blob/main/Images-for-README/web-demo-1.png" style="zoom:30%;" />
 
-  <img src="https://github.com/enor2017/HackUST/blob/main/Images-for-README/web-demo-2.png" style="zoom:30%;" />
+  <img src="https://github.com/enor2017/HackUST/blob/main/Images-for-README/web-demo-2.png" style="zoom:60%;" />
 
   <img src="https://github.com/enor2017/HackUST/blob/main/Images-for-README/web-demo-3.png" style="zoom:30%;" />
 
