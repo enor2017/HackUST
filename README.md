@@ -12,7 +12,7 @@ Our project consists of **4** parts:
 
 - **Website**: under `/lg1-monitor` folder, please refer to [readme file for website](https://github.com/enor2017/HackUST/tree/main/lg1-monitor). we've also deployed it on our AWS server, as you can see at [http://mon1-j4f.site/](http://mon1-j4f.site/) or [http://54.89.142.90/](http://54.89.142.90/).
 
-  Assisted by our website, customers are encouraged to order online(via phone or computer) and take away food, and they are also able to monitor the current state of restaurant.(real-time customer no., future people density forecasting, kitchen monitoring, as well as personal ordere history)
+  Assisted by our website, customers are encouraged to order online(via phone or computer) and take away food, and they are also able to monitor the current state of restaurant.(real-time customer no., future people density forecasting, kitchen monitoring, as well as personal order history)
 
   <img src="https://github.com/enor2017/HackUST/blob/main/Images-for-README/web-demo-1.png" style="zoom:30%;" />
 
