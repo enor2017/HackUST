@@ -18,17 +18,14 @@ public class Main {
     public static int getWeek(Date date){
         Calendar cal = Calendar.getInstance();
         cal.setTime(date);
-        int week_index = 5;
-//        int week_index = cal.get(Calendar.DAY_OF_WEEK) - 1 ;
-//        System.out.println(week_index);
+        int week_index = cal.get(Calendar.DAY_OF_WEEK) - 1 ;
         return week_index;
     }
     public static String getdate() {
         String date;
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
-//        String str = dtf.format(now);
-        String str = "2021/04/16 13:00:00";
+        String str = dtf.format(now);
         date = str.substring(0,10);
         return date;
     }
@@ -37,8 +34,7 @@ public class Main {
             String hour;
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
             LocalDateTime now = LocalDateTime.now();
-            String str = "2021/04/16 13:00:00";
-//            String str = dtf.format(now);
+            String str = dtf.format(now);
             hour = str.substring(11,13);
             return hour;
         }
@@ -46,8 +42,7 @@ public class Main {
             String minute;
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
             LocalDateTime now = LocalDateTime.now();
-            String str = "2021/04/16 13:00:00";
-//            String str = dtf.format(now);
+            String str = dtf.format(now);
             minute = str.substring(14,16);
             return minute;
     }
