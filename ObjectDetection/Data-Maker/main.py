@@ -8,7 +8,7 @@ def generate_holiday():
     # {week_num}-{day}.txt
     for week in range(0, 6):
         for i in range(1, 8):
-            file = open("./holiday-data/" + str(week) + "-" + str(i) + ".txt", "w")
+            file = open("./Data/" + str(week) + "-" + str(i) + ".txt", "w")
             accumulated_day = week * 7 + i  # how many days has passed since Mar 1.
             month = 3 if accumulated_day <= 31 else 4
             month_str = "March" if month == 3 else "April"
