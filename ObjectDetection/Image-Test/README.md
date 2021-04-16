@@ -1,5 +1,9 @@
 # A Simple Guide for Image Test
 
+## 0. Overview
+
+We adopted an open source package(see [here](https://drive.google.com/file/d/1sF_NWhgvHx8n6Cy5HKwL4ncHjK350ZhQ/view?usp=sharing) for details) in order to detect certain objects(people in our project) inside an image. We have already packed what we need inside the source codes in this folder. Please read instructions below to run it on your own computer!
+
 ## 1. Download and Install Dependencies
 
 - Firstly, you need to download/clone the files in this folder.
